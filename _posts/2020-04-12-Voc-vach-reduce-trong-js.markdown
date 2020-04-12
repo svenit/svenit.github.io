@@ -28,9 +28,9 @@ Lướt qua vài định nghĩa bên trên rồi giờ chúng ta luôn bước t
 
 Dưới đây là cú pháp khi sử dụng reduce : 
 ```js
-   let something = arr.reduce((a, b) => {
-        // Statements
-   }, defaultValue);
+let something = arr.reduce((a, b) => {
+    // Statements
+}, defaultValue);
 ```
 Trong đó :
 `something` là một biến các bạn định nghĩa để gọi sau này
@@ -47,21 +47,21 @@ Giờ thử làm một vài bài toán nhé =))
 
 ```js
    // Ta có một mảng như này
-   let arr = [1, 3, 6, 6,2, 10, 7];
+let arr = [1, 3, 6, 6,2, 10, 7];
 ```
 **Dùng for :** 
 ```js
-	let sum = 0;
-	for(let i = 0; i < arr.length; ++i) 
-	{
-	   sum += arr[i];
-	}
-	console.log(sum);
+let sum = 0;
+for(let i = 0; i < arr.length; ++i) 
+{
+    sum += arr[i];
+}
+console.log(sum);
 ```
 **Dùng reduce :**
 ```js
-	let sum = arr.reduce((a, b) => a + b, defaultValue = 0);
-	console.log(sum);
+let sum = arr.reduce((a, b) => a + b, defaultValue = 0);
+console.log(sum);
 ```
 
 Để mình giải thích qua cho dễ hiểu =)) 
@@ -77,23 +77,23 @@ Cứ như vậy cho đến khi hết mảng thì ta sẽ ra được kết quả
 Ta có thể dễ dàng tìm min hoặc max với reduce : 
 Giả sử ta có 1 mảng như sau : 
 ```js
-    let arr = [23, 92, 76, 5, 43, 16, 8, 104];
+let arr = [23, 92, 76, 5, 43, 16, 8, 104];
 ```
 **Dùng for :** 
 
 ```js
-    let min = arr[0];
-	for(let i = 0;i < arr.length; ++i)
-	{
-		min = min > arr[i] ? arr[i] : min;
-	}
-	console.log(min);
+let min = arr[0];
+for(let i = 0;i < arr.length; ++i)
+{
+    min = min > arr[i] ? arr[i] : min;
+}
+console.log(min);
 ```
 
 **Dùng reduce :** 
 ```js
-	let min = arr.reduce((a, b) => a > b ? b : a, arr[0]);
-	console.log(min);
+let min = arr.reduce((a, b) => a > b ? b : a, arr[0]);
+console.log(min);
 ```
 
 Game là dễ nhỉ :'D
