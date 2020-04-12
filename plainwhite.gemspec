@@ -3,11 +3,11 @@
 Gem::Specification.new do |spec|
   spec.name          = "plainwhite"
   spec.version       = "0.9"
-  spec.authors       = ["traiit"]
-  spec.email         = ["traiit.blogger@gmail.com"]
+  spec.authors       = ["svenit"]
+  spec.email         = ["lequangvy2k@gmail.com"]
 
-  spec.summary       = "Trai IT"
-  spec.homepage      = "https://traiit.github.io"
+  spec.summary       = "Svenit"
+  spec.homepage      = "https://svenit.github.io"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|404.html|sitemap.xml)!i) }
