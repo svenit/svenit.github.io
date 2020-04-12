@@ -1,10 +1,8 @@
-title: Trang blog của Trai IT
-author: Trai IT
-email: traiit.blogger@gmail.com
+title: Trang blog của Svenit
+author: Svenit
+email: lequangvy2k@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Xin chào các bạn đến với trang blog của Trai IT.
-  Sao mình lại đặt là "Trai IT"? Đơn giản là mình đang là một chàng sinh viên IT. Mà "Trai IT" like "traɪ it" like "try it".
-  Đúng vậy phải "try"! Mình sẽ chia sẻ về đời sống và công nghệ theo cách nhìn và tiếp cận của mình, rất cảm ơn các bạn
+  Blog chém code dạo cùng Svenit
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -12,7 +10,7 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Trai IT
+  name: Svenit
   tagline: Programmer
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
