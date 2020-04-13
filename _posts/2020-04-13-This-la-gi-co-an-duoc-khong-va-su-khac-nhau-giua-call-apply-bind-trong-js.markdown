@@ -132,7 +132,7 @@ Trong đó :
 ``Ví dụ :  ``
 
 ```js
-let infor = {
+let user = {
 	name: "Vỹ",
 	phone: 123456
 };
@@ -142,7 +142,7 @@ function getUser(level, address)
 	return `${this.name} - ${this.phone} - ${level} - ${address}`;
 }
 
-console.log(getUser.call(infor, 10, "Viet Nam")); // Vỹ - 123456 - 10 - Viet Nam
+console.log(getUser.call(user, 10, "Viet Nam")); // Vỹ - 123456 - 10 - Viet Nam
 
 ```
 
@@ -157,7 +157,7 @@ Khác với call thì apply cho phép bạn truyền 1 object và các tham số
 ``Ví dụ :  ``
 
 ```js
-let infor = {
+let user = {
 	name: "Vỹ",
 	phone: 123456
 };
@@ -167,7 +167,7 @@ function getUser(level, address)
 	return `${this.name} - ${this.phone} - ${level} - ${address}`;
 }
 
-console.log(getUser.apply(infor, [10, "Viet Nam"])); // Vỹ - 123456 - 10 - Viet Nam
+console.log(getUser.apply(user, [10, "Viet Nam"])); // Vỹ - 123456 - 10 - Viet Nam
 
 ```
 
@@ -182,7 +182,7 @@ Bind cũng gần giống với call, tuy nhiên hàm này không thể gọi hà
 ``Ví dụ :  ``
 
 ```js
-let infor = {
+let user = {
 	name: "Vỹ",
 	phone: 123456
 };
@@ -192,9 +192,9 @@ function getUser(level, address)
 	return `${this.name} - ${this.phone} - ${level} - ${address}`;
 }
 
-console.log(getUser.bind(infor, 10, "Viet Name")); // Không trả về dữ liệu
+console.log(getUser.bind(user, 10, "Viet Name")); // Không trả về dữ liệu
 
-let helloUser = getUser.bind(infor, 10, "Viet Name");
+let helloUser = getUser.bind(user, 10, "Viet Name");
 helloUser(); // Vỹ - 123456 - 10 - Viet Nam
 
 
