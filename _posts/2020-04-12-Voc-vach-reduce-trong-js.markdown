@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Vọc vạch Reduce trong JavaScript"
-date:   2020-03-07 20:00:00 +0000
+date:   2020-04-12 20:00:00 +0000
 categories: Javascript
 ---
 Xin chào các bạn đến với seri JavaScript căn bản cho Beginner ^^ 
