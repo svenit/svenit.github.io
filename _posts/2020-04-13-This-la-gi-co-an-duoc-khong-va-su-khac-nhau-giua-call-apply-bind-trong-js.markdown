@@ -209,9 +209,9 @@ Có một lưu ý nhỏ là :
 
 Do đó thi ta sử dụng **call**, **apply**, **bind**. **This** sẽ được trỏ thẳng đến **object** được gói đó ^^ kể cả khi việc bạn có **define** một biến cùng tên đi chăng nữa thì this cũng sẽ chỉ trỏ đến **object** đó mà thôi 😉
 
-Vừa rồi mình đã giới thiệu qua cách xử dụng cũng như sự khác nhau giữa ba hàm call, apply và bind. 
+Vừa rồi mình đã giới thiệu qua cách sử dụng cũng như sự khác nhau giữa ba hàm call, apply và bind. 
 
-Chém gió xong xuôi rồi chúng ta chuyển qua cách sử dụng **this** trong callback function, closure.
+Chém gió xong xuôi rồi chúng ta chuyển qua cách sử dụng **this** trong callback function, closure :D.
 
 **This trong callback function**
 
@@ -226,12 +226,12 @@ function calcu(a, b, callback)
 	return callback(a, b);
 }
 
-function nhan(a, b)
+function multiple(a, b)
 {
 	return a * b;
 }
 
-console.log(calcu(5, 2, nhan)); // 10
+console.log(calcu(5, 2, multiple)); // 10
 ```
 
 ``Sử dụng this trong callback như thế nào?``
