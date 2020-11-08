@@ -102,7 +102,10 @@ main {
       line-height: normal;
     }
     img {
-      max-width: 150px;
+      width: 150px !important;
+      height: 150px !important;
+      object-fit: cover !important;
+      border-radius: 50% !important;
     }
   }
 }
