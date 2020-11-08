@@ -2,7 +2,7 @@
 layout: post
 title:  "Hãy trưởng thành - Grow up"
 date:   2020-11-08 13:55:00 +0000
-categories: Nhảm nhí
+categories: "Nhảm nhí" "OK"
 ---
 Bài viết được dịch từ DEV.to. Truy cập bài viết gốc: Grow up.
 
