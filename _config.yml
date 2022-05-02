@@ -15,6 +15,12 @@ plainwhite:
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
+  navigation:
+    - title: My CV
+      url: "https://www.topcv.vn/xem-cv/UA9UAFtTUwJUBlELDQEFUQJRC1sHVQJUVAVUUQeccd"
+    - title: Github
+      url: "https://github.com/svenit"
+
   # generate social links in footer
   social_links:
     facebook: sven307
@@ -22,7 +28,7 @@ plainwhite:
     linkedIn: in/sven307
     rss: rss
     # dribbble: jekyll
-    # facebook: jekyll
+    facebook: sven812
     # flickr:   jekyll
     # instagram: jekyll
     # linkedin: jekyll
