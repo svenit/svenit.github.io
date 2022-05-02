@@ -5,6 +5,8 @@ description: > # this means to ignore newlines until "show_exerpts:"
   Blog chém code dạo cùng Svenit
 show_excerpts: true # set to true to show excerpts on the homepage
 
+remote_theme: thelehhman/plainwhite-jekyll
+
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 sass:
